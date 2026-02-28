@@ -17,7 +17,7 @@ export default function Layout() {
         <ConnectionStatus />
       </header>
 
-      <main className="flex-1 overflow-y-auto pb-20" style={{ paddingBottom: 'calc(5rem + env(safe-area-inset-bottom))' }}>
+      <main className="flex-1 overflow-y-auto" style={{ paddingBottom: 'calc(3.75rem + env(safe-area-inset-bottom))' }}>
         <Outlet />
       </main>
 
