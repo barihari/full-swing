@@ -11,7 +11,7 @@ const navItems = [
 
 export default function Layout() {
   return (
-    <div className="flex flex-col min-h-dvh bg-gray-900">
+    <div className="fixed inset-0 flex flex-col bg-gray-900">
       <header className="bg-gray-900 border-b border-gray-800 px-4 py-3 flex items-center justify-between safe-top">
         <h1 className="text-lg font-bold tracking-tight text-green-400">Full Swing</h1>
         <ConnectionStatus />
